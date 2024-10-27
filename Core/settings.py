@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-s2d^04sgt(3blp77jfs3l64v$_ts1k@x+_5)y1&0z6yalne1ie
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','historical-olympic-medals-data.onrender.com/']
 
 
 
