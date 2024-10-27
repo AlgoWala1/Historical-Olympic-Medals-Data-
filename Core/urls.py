@@ -16,23 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from home.views import home
-from home.views import ciao
 from OlympicMedal.views import *
-from Recipe.views import *
 from django.conf.urls.static import static
 from django.conf import settings
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('',FormPage),
-    path('receipes/',receipes),
-    path('delete_recipe/<id>/',delete_recipe),
     path('Medal/',medal),
-    path('update/<id>/',update),
-    path('login_page/',login_page),
-    path('Logout/', Logout),
-    path('register/',register),
-    path('ciao/', ciao),
     path('admin/', admin.site.urls),
 ]
 

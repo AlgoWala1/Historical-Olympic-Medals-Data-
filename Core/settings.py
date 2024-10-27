@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-s2d^04sgt(3blp77jfs3l64v$_ts1k@x+_5)y1&0z6yalne1ie'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -41,9 +41,6 @@ INSTALLED_APPS = [
 ]
 
 EXTERNAL_APPS = [
-    'accounts',
-    'home',
-    'Recipe',
     'OlympicMedal'
 ]
 INSTALLED_APPS += EXTERNAL_APPS
